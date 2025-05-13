@@ -1,6 +1,8 @@
 
 #include<stdio.h>
 int main(){
+printf("Novo printf");
+printf("Novo commit");
 
 // Declaração das variáveis para a PRIMEIRA carta 
 
