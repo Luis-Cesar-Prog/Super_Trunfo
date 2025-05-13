@@ -9,20 +9,24 @@ char codigo1[10];
 char nome_cidade1[20];
 int populacao1;
 float area1;
-float pib1;
+float pib1; // em bilhões
 int pontos_turisticos1;
+float densidade_populacional1;
+float pib_per_capita1;
 
- // Declaração das variáveis para a SEGUNDA carta
+// Declaração das variáveis para a SEGUNDA carta
 
  char estado2; 
  char codigo2[10];  
  char nome_cidade2[20];
  int populacao2;
  float area2;
- float pib2;
+ float pib2; // em bilhões
  int pontos_turisticos2;
+ float densidade_populacional2;
+ float pib_per_capita2;
 
- // Entrada de dados para a PRIMEIRA carta
+// Entrada de dados para a PRIMEIRA carta
 
  printf("=== Cadastro da Carta 1 ===\n");
  printf("Digite o Estado (letra de A a H):\n");
@@ -103,8 +107,6 @@ printf("densidade populacional: %.2f\n", densidade_populacional2);
 printf("pib per capita: %.2f\n", pib_per_capita2);
 
 return 0;
-
-
 
 
 
